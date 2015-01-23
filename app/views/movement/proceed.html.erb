@@ -1,0 +1,15 @@
+<u1>
+	<h2>Simple Client to SOA Game Server</h2>
+	<h3>Server Reply: </h3>
+	<p>  <%= @message %></p>
+	
+	<h3>Status Code: <%= @current_status_code %></h3>
+	
+	<h3>Where to go next?</h3>
+	<%= button_to 'Room 1', users_path(:choice => '1')%>
+	<%= button_to 'Room 2', users_path(:choice => '2')%>
+	<%= submit_tag "Room 3", :choice => '3'%>
+	<%= submit_tag "Room 4", :choice => '4'%>
+	
+
+</u1>

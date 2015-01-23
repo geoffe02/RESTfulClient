@@ -15,6 +15,11 @@ gem 'coffee-rails', '~> 4.0.0'
 # gem 'therubyracer',  platforms: :ruby
 
 gem 'rest-client'
+gem 'json'
+gem 'httparty'
+
+#gem 'rabl'
+#gem 'oj'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks

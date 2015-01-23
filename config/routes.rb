@@ -2,6 +2,10 @@ Rails.application.routes.draw do
 
 resources :users
 
+get '/users/:show' => 'users#index'
+get '/movement/:proceed' => 'movement#index'
+get 'Room3' => 'movement#proceed'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

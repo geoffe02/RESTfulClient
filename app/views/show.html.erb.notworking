@@ -1,0 +1,16 @@
+<p>Response Data</p>
+<table width="100%">
+	<tr>
+		<td>Status Code</td>
+		<td>Message</td>
+		<td>jsonData Payload</td>
+	</tr>
+	
+	<% @user.each do |u| %>
+	<tr>
+		<td><%=u[:status]%></td>
+		<td><%=u[:message]%></td>
+		<td><%=u[:jsonData]%></td>
+	</tr>
+	<% end %>
+</table>
